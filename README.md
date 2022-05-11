@@ -1,5 +1,5 @@
 # DNA_family_sequencing
 In this project , a machine learning model using sklearn is created  which takes in a Genomic sequence/bunch of sequences and classifies it to its respective Genomic family
 This project Uses learn machine learning library to create a trained model to classify the given genomes. k-mer algorithm is implemented in order to convert each genome into a set of a fixed number of strands to make the feature  process easier .feature extraction was done by creating a bag-of-words model using a count vectorizer.Multinomial Knaive Baye's theorem was used to train the final model which would be used for the prediction. Girdsearch was implemented on the model in order to find a better value for the hyperparameter("alpha"), and a new model was created with the derived parameters, which surely increased the accuracy . The trained model was exported so that it could be deployed anywhere else. The exported trained model is attached separately in the repository.
-The method of importing the model within the model is described in the main project file itself.  
+The method of importing the model within your pythin project is described in the main project file itself.  
 Archive password hint: sbsm
